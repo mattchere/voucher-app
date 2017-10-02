@@ -9,9 +9,13 @@
   width: 80%;
 }
 
+.voucher-item {
+  margin: 10px 0;
+}
+
 .voucher-title,
 .description-box {
-  background-color: #188CCC;
+  background-color: #0F577F;
   border: 2px solid black;
   border-radius: 10px;
   padding: 10px;
@@ -25,6 +29,7 @@
 }
 
 .voucher-title:hover {
+  background-color: #188CCC;
   cursor: pointer;
 }
 

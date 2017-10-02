@@ -9,7 +9,7 @@ class VoucherList extends Component {
       <ul>
         {this.props.vouchers
           .map((voucher, i) => 
-            <li key={i}>
+            <li key={i} className="voucher-item">
               <Voucher 
                 title={voucher.title}
                 description={voucher.description}
