@@ -15,6 +15,24 @@ class App extends Component {
         }
       ]
     };
+
+    this.onClick = this.onClick.bind(this);
+  }
+
+  onClick(title) {
+    this.setState({
+      vouchers: this.state.vouchers
+        .map(v => {
+          if (v.title === title) {
+            return {
+              title: v.title,
+              description: v.description,
+              show: v.show ? false : true
+            }
+          }
+          return v
+        })
+    })
   }
 
   render() {
@@ -22,6 +40,7 @@ class App extends Component {
       <div className="app">
         <VoucherList 
           vouchers={this.state.vouchers}
+          onClick={this.onClick}
         />
       </div>
     );

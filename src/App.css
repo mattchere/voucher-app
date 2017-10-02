@@ -17,6 +17,17 @@
   padding: 10px;
 }
 
+.voucher-title {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.voucher-title:hover {
+  cursor: pointer;
+}
+
 .description-box {
   margin-top: 10px;
 }
