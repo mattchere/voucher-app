@@ -10,7 +10,7 @@ class App extends Component {
       vouchers: [
         {
           title: 'Dinner Date',
-          description: 'Testing',
+          description: 'This voucher entitles you to one dinner date with your lovely boyfriend paid by him. This also includes transport to the dinner venue and dessert (the most important part)! Use whenever you wish (:',
           show: false
         }
       ]
