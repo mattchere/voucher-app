@@ -9,8 +9,8 @@ class App extends Component {
     this.state = {
       vouchers: [
         {
-          title: 'Dinner Date',
-          description: 'This voucher entitles you to one dinner date with your lovely boyfriend paid by him. This also includes transport to the dinner venue and dessert (the most important part)! Use whenever you wish (:',
+          title: 'Movie Date',
+          description: 'This voucher entitles you to one movie date with your lovely boyfriend paid by him. This also includes lunch/dinner and transportation to the venue, so use wisely!',
           show: false
         }
       ]
