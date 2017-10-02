@@ -10,7 +10,7 @@ class App extends Component {
       vouchers: [
         {
           title: 'Dinner Date',
-          description: 'Description',
+          description: 'Testing',
           show: false
         }
       ]
@@ -19,9 +19,11 @@ class App extends Component {
 
   render() {
     return (
-      <VoucherList 
-        vouchers={this.state.vouchers}
-      />
+      <div className="app">
+        <VoucherList 
+          vouchers={this.state.vouchers}
+        />
+      </div>
     );
   }
 }
