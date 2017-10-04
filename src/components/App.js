@@ -12,6 +12,11 @@ class App extends Component {
           title: 'Movie Date',
           description: 'This voucher entitles you to one movie date with your lovely boyfriend paid by him. This also includes lunch/dinner and transportation to the venue, so use wisely!',
           show: false
+        },
+        {
+          title: 'Massage',
+          description: 'This voucher entitles you to a free massage!',
+          show: false
         }
       ]
     };
