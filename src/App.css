@@ -33,6 +33,21 @@
   cursor: pointer;
 }
 
+.voucher-title-used {
+  background-color: #5A5757;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+}
+
+.voucher-title-used:hover {
+  cursor: not-allowed;
+}
+
 .description-box {
   margin-top: 10px;
 }

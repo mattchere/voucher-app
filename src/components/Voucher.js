@@ -15,13 +15,14 @@ class Voucher extends Component {
   render() {
     return (
       <div className="voucher">
-        <a className="voucher-link" onClick={this.handleClick}>
-          <div className="voucher-title">
+        <a className="voucher-link" onClick={!this.props.used ? this.handleClick : ()=>{}}>
+          <div className={!this.props.used ? 'voucher-title' : 'voucher-title-used'}>
             <h1>{this.props.title}</h1>
           </div>
         </a>
         <div className={this.props.show ? 'description-box' : 'description-box hidden'}>
-          <p>{this.props.description}</p>
+          {this.props.description.map((line, i) =>
+            <p key={i}>{line}</p>)}
         </div>
       </div>
     );

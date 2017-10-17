@@ -14,6 +14,7 @@ class VoucherList extends Component {
                 title={voucher.title}
                 description={voucher.description}
                 show={voucher.show}
+                used={voucher.used}
                 onClick={this.props.onClick}
               />
             </li>)}  
