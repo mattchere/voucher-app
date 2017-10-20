@@ -31,6 +31,12 @@ class App extends Component {
           show: false,
           used: false
         },
+        {
+          title: 'Massage*',
+          description: ['This voucher entitles you to a free massage!', 'Note that this voucher does not expire on use.'],
+          show: true,
+          used: false
+        },
       ]
     };
 
